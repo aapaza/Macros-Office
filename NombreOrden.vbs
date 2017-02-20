@@ -1,5 +1,6 @@
 Public Function NombreOrden(strNombre As String) As String
 'Ordena los nombres y apellidos, para casos con 2 apellidos y 2 nombres
+'Probando macro y publicación
 
 Dim FullName As Variant
 
