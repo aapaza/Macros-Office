@@ -56,5 +56,7 @@ For i = 1 To colTexto.Count / 2
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
 Next i
+
+Set colTexto = Nothing
     
 End Sub
