@@ -8,13 +8,25 @@ Dim colTexto As Collection
 
 Set colTexto = New Collection
 
-n_empresa = "" 'Nombre corto de empresa
-nombre_empresa = "CORPORACIÓN ACEROS AREQUIPA S.A." 'Razon social de la empresa
+n_empresa = "ALICORP" 'Nombre corto de empresa
+nombre_empresa = "ALICORP S.A.A." 'Razon social de la empresa
+
+colTexto.Add "AGRÍCOLA DEL CHIRA S.A." 'Nombre largo de empresa anterior en informe
+colTexto.Add nombre_empresa
+
+colTexto.Add "AGRÍCOLA DEL CHIRA" 'Nombre corto de empresa anterior en informe
+colTexto.Add n_empresa
 
 colTexto.Add "n_empresa"
 colTexto.Add n_empresa
 
+colTexto.Add "N_empresa"
+colTexto.Add n_empresa
+
 colTexto.Add "nombre_empresa"
+colTexto.Add nombre_empresa
+
+colTexto.Add "Nombre_empresa"
 colTexto.Add nombre_empresa
 
 colTexto.Add " ,"
@@ -31,6 +43,15 @@ colTexto.Add ")"
 
 colTexto.Add "formato F"
 colTexto.Add "Formato F"
+
+colTexto.Add "OFICIO - Nro."
+colTexto.Add "Oficio N°"
+
+colTexto.Add "CARTA - Nro."
+colTexto.Add "Carta N°"
+
+colTexto.Add "Carta N° SN"
+colTexto.Add "Carta S/N"
 
 colTexto.Add "carta N"
 colTexto.Add "Carta N"
